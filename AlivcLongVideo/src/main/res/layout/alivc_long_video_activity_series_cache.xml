@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/alivc_common_white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <include layout="@layout/alivc_long_video_base_title" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/alivc_common_margin_15"
+            android:layout_marginBottom="11dp"
+            android:text="@string/alivc_longvideo_series_cache_current_definition"
+            android:textColor="@color/alivc_longvideo_title_right_font_black"
+            android:textSize="@dimen/alivc_common_font_13" />
+
+        <TextView
+            android:id="@+id/tv_series_cache_current_definition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/alivc_common_margin_15"
+            android:layout_marginBottom="11dp"
+            android:drawableRight="@drawable/alivc_longvideo_icon_series_cache_definition"
+            android:drawablePadding="@dimen/alivc_common_padding_5"
+            android:textColor="@color/alivc_common_bg_red_darker"
+            android:textSize="@dimen/alivc_common_font_13" />
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/alivc_common_line_1dp"
+        android:background="@color/alivc_common_bg_gray_bright" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview_series_all"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingTop="@dimen/alivc_common_padding_12"
+        android:paddingRight="@dimen/alivc_common_padding_10"
+        android:paddingBottom="@dimen/alivc_common_padding_12">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/alivc_common_line_1dp"
+        android:background="@color/alivc_common_line_gray_bright" />
+
+    <com.aliyun.solution.longvideo.view.CacheFileTipsView
+        android:id="@+id/cache_file_tips_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </com.aliyun.solution.longvideo.view.CacheFileTipsView>
+
+
+</LinearLayout>

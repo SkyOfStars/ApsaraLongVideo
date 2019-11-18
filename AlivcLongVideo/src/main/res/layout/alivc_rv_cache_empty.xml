@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/alivc_tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/alivc_longvideo_cachevideo_not_cachevideo"
+        android:textColor="@color/alivc_longvideo_font_more"
+        android:textSize="@dimen/alivc_common_font_15" />
+</LinearLayout>

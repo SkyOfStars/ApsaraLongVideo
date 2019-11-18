@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">长视频</string>
+
+    <string name="alivc_apsara_video_regist">© 2009&#8211;2019 Copyright by Alibaba Cloud All rights reserved</string>
+    <string name="alivc_apsara_video_title">阿里云视频云</string>
+</resources>

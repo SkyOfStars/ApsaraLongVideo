@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/error_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/alivc_ll_retry"
+        android:layout_width="@dimen/alivc_common_height_group_200"
+        android:layout_height="@dimen/alivc_common_height_group_160"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="@dimen/alivc_common_height_icon_68"
+            android:layout_height="@dimen/alivc_common_height_icon_68"
+            android:src="@drawable/alivc_longvideo_icon_not_newwork" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/alivc_common_margin_10"
+            android:text="@string/alivc_longvideo_not_network_retry"
+            android:textSize="@dimen/alivc_common_font_15" />
+    </LinearLayout>
+
+</RelativeLayout>

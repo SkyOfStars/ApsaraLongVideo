@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/alivc_root_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/alivc_iv_preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/alivc_tv_vip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/alivc_common_margin_14"
+        android:layout_marginLeft="@dimen/alivc_common_margin_14"
+        android:layout_marginTop="@dimen/alivc_common_margin_14"
+        android:background="@drawable/alivc_longvideo_bg_font_vip"
+        android:gravity="center"
+        android:minWidth="@dimen/alivc_common_size_icon_28"
+        android:paddingLeft="@dimen/alivc_common_padding_6"
+        android:paddingTop="@dimen/alivc_common_margin_2"
+        android:paddingRight="@dimen/alivc_common_padding_6"
+        android:paddingBottom="@dimen/alivc_common_margin_2"
+        android:text="@string/alivc_longvideo_VIP_title"
+        android:textColor="@color/alivc_common_font_white"
+        android:textSize="@dimen/alivc_common_font_11" />
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/alivc_tv_video_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="@dimen/alivc_common_margin_14"
+        android:layout_marginEnd="@dimen/alivc_common_margin_14"
+        android:layout_marginRight="@dimen/alivc_common_margin_14"
+        android:background="@drawable/alivc_longvideo_bg_font_vip_type"
+        android:gravity="center"
+        android:minWidth="@dimen/alivc_common_size_icon_28"
+        android:paddingLeft="@dimen/alivc_common_padding_6"
+        android:paddingTop="@dimen/alivc_common_margin_2"
+        android:paddingRight="@dimen/alivc_common_padding_6"
+        android:paddingBottom="@dimen/alivc_common_margin_2"
+        android:text="@string/alivc_longvideo_singleset_title"
+        android:textColor="@color/alivc_common_bg_black"
+        android:textSize="@dimen/alivc_common_font_11" />
+
+    <TextView
+        android:id="@+id/alivc_tv_vip_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/alivc_common_margin_6"
+        android:layout_marginLeft="@dimen/alivc_common_margin_6"
+        android:layout_marginTop="@dimen/alivc_common_margin_14"
+        android:layout_toStartOf="@+id/alivc_tv_video_type"
+        android:layout_toLeftOf="@+id/alivc_tv_video_type"
+        android:layout_toEndOf="@+id/alivc_tv_vip"
+        android:layout_toRightOf="@+id/alivc_tv_vip"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:paddingRight="@dimen/alivc_common_padding_4"
+        android:textColor="@color/alivc_common_font_white"
+        android:textSize="@dimen/alivc_common_font_16" />
+
+
+    <!--右下角初始显示的总时长-->
+    <TextView
+        android:id="@+id/length"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="@dimen/alivc_common_margin_8"
+        android:layout_marginRight="@dimen/alivc_common_margin_8"
+        android:layout_marginBottom="@dimen/alivc_common_margin_8"
+        android:background="@drawable/alivc_longvideo_bg_transparent_black"
+        android:paddingLeft="@dimen/alivc_common_padding_6_5"
+        android:paddingTop="@dimen/alivc_common_margin_3"
+        android:paddingRight="@dimen/alivc_common_padding_6_5"
+        android:paddingBottom="@dimen/alivc_common_margin_3"
+        android:textColor="@color/alivc_common_bg_white"
+        android:textSize="@dimen/alivc_common_font_12"
+        tools:text="10:24:32" />
+    <!--中间开始播放按钮-->
+    <ImageView
+        android:id="@+id/center_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/alivc_longvideo_icon_player"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/alivc_iv_pause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/alivc_longvideo_playstate_pause"
+        android:visibility="gone" />
+
+
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/alivc_common_margin_6"
+    android:layout_marginLeft="@dimen/alivc_common_margin_6"
+    android:layout_marginEnd="@dimen/alivc_common_margin_6"
+    android:background="@drawable/alivc_rv_item_selector_ripple"
+    android:layout_marginRight="@dimen/alivc_common_margin_6"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="@dimen/alivc_longvideo_width_fl_cache_history"
+        android:layout_height="@dimen/alivc_longvideo_height_fl_cache_history">
+
+        <ImageView
+            android:id="@+id/alivc_iv_preview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/alivc_tv_schedule"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="@dimen/alivc_common_margin_10"
+            android:layout_marginLeft="@dimen/alivc_common_margin_10"
+            android:layout_marginBottom="@dimen/alivc_common_padding_9"
+            android:gravity="center"
+            android:textColor="@color/alivc_common_font_white"
+            android:textSize="@dimen/alivc_common_font_12" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/alivc_tv_name"
+        android:layout_width="@dimen/alivc_longvideo_width_fl_cache_history"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/alivc_common_margin_5"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/alivc_common_bg_black"
+        android:textSize="@dimen/alivc_common_font_13" />
+</LinearLayout>

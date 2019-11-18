@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/alivc_longvideo_mine_bg_gray"
+    android:orientation="vertical"
+    tools:context=".activity.UserInfoActivity">
+
+    <include layout="@layout/alivc_long_video_base_title" />
+
+    <LinearLayout
+        android:id="@+id/alivc_ll_video_number"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/alivc_common_height_group_60"
+        android:background="@color/alivc_common_font_white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/alivc_common_margin_18"
+            android:text="@string/alivc_longvideo_video_download_number"
+            android:textColor="@color/alivc_common_bg_black"
+            android:textSize="@dimen/alivc_common_font_15" />
+
+        <TextView
+            android:id="@+id/alivc_tv_number"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/alivc_common_margin_16"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="1"
+            android:textColor="@color/alivc_common_bg_black"
+            android:textSize="@dimen/alivc_common_font_15" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/alivc_common_margin_15"
+            android:src="@drawable/alivc_longvideo_right_back_arrow" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/alivc_common_line_1px"
+        android:background="@color/alivc_longvideo_mine_bg_gray" />
+
+    <LinearLayout
+        android:id="@+id/alivc_ll_sharpness"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/alivc_common_height_group_60"
+        android:background="@color/alivc_common_font_white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/alivc_common_margin_18"
+            android:layout_weight="1"
+            android:text="@string/alivc_longvideo_download_sharpness"
+            android:textColor="@color/alivc_common_bg_black"
+            android:textSize="@dimen/alivc_common_font_15" />
+
+        <TextView
+            android:id="@+id/alivc_tv_sharpness"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/alivc_common_margin_16"
+            android:text="标清"
+            android:textColor="@color/alivc_common_bg_black"
+            android:textSize="@dimen/alivc_common_font_15" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/alivc_common_margin_15"
+            android:src="@drawable/alivc_longvideo_right_back_arrow" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/alivc_common_line_1px"
+        android:background="@color/alivc_longvideo_mine_bg_gray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/alivc_common_height_group_60"
+        android:background="@color/alivc_common_font_white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/alivc_common_margin_18"
+            android:layout_weight="1"
+            android:text="@string/alivc_longvideo_doawload_operator"
+            android:textColor="@color/alivc_common_bg_black"
+            android:textSize="@dimen/alivc_common_font_15" />
+
+        <com.aliyun.svideo.common.widget.SwitchButton
+            android:id="@+id/alivc_switch_operator"
+            android:layout_width="@dimen/alivc_longvideo_width_switch_button_51"
+            android:layout_height="@dimen/alivc_longvideo_height_switch_button"
+            android:layout_marginRight="@dimen/alivc_common_margin_17"
+            app:primaryColor="@color/alivc_longvideo_switch_button_blue"
+            app:primaryColorDark="@color/alivc_longvideo_switch_button_blue" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/alivc_common_line_1px"
+        android:background="@color/alivc_longvideo_mine_bg_gray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/alivc_common_height_group_60"
+        android:background="@color/alivc_common_font_white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/alivc_common_margin_18"
+            android:layout_weight="1"
+            android:text="@string/alivc_longvideo_auto_play"
+            android:textColor="@color/alivc_common_bg_black"
+            android:textSize="@dimen/alivc_common_font_15" />
+
+        <com.aliyun.svideo.common.widget.SwitchButton
+            android:id="@+id/alivc_switch_autoplay"
+            android:layout_width="@dimen/alivc_longvideo_width_switch_button_51"
+            android:layout_height="@dimen/alivc_longvideo_height_switch_button"
+            android:layout_marginRight="@dimen/alivc_common_margin_17"
+            app:primaryColor="@color/alivc_longvideo_switch_button_blue"
+            app:primaryColorDark="@color/alivc_longvideo_switch_button_blue" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/alivc_common_line_1px"
+        android:background="@color/alivc_longvideo_mine_bg_gray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/alivc_common_height_group_60"
+        android:background="@color/alivc_common_font_white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/alivc_common_margin_18"
+            android:layout_weight="1"
+            android:text="@string/alivc_longvideo_hard_decoding"
+            android:textColor="@color/alivc_common_bg_black"
+            android:textSize="@dimen/alivc_common_font_15" />
+
+        <com.aliyun.svideo.common.widget.SwitchButton
+            android:id="@+id/alivc_switch_decoding"
+            android:layout_width="@dimen/alivc_longvideo_width_switch_button_51"
+            android:layout_height="@dimen/alivc_longvideo_height_switch_button"
+            android:layout_marginRight="@dimen/alivc_common_margin_17"
+            app:primaryColor="@color/alivc_longvideo_switch_button_blue"
+            app:primaryColorDark="@color/alivc_longvideo_switch_button_blue" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/alivc_common_line_1px"
+        android:background="@color/alivc_longvideo_mine_bg_gray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/alivc_common_height_group_60"
+        android:background="@color/alivc_common_font_white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/alivc_common_margin_18"
+            android:layout_weight="1"
+            android:text="@string/alivc_longvideo_setting_vip"
+            android:textColor="@color/alivc_common_bg_black"
+            android:textSize="@dimen/alivc_common_font_15" />
+
+        <com.aliyun.svideo.common.widget.SwitchButton
+            android:id="@+id/alivc_switch_vip"
+            android:layout_width="@dimen/alivc_longvideo_width_switch_button_51"
+            android:layout_height="@dimen/alivc_longvideo_height_switch_button"
+            android:layout_marginRight="@dimen/alivc_common_margin_17"
+            app:primaryColor="@color/alivc_longvideo_switch_button_blue"
+            app:primaryColorDark="@color/alivc_longvideo_switch_button_blue" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/alivc_common_line_1px"
+        android:background="@color/alivc_longvideo_mine_bg_gray" />
+</LinearLayout>

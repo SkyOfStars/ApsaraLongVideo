@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="alivc_longvideo_app_name">长视频</string>
+    <string name="alivc_longvideo_home_title">首页</string>
+    <string name="alivc_longvideo_VIP_title">VIP</string>
+    <string name="alivc_longvideo_mine_title">我的</string>
+    <string name="alivc_longvideo_user_nickname">用户昵称</string>
+    <string name="alivc_longvideo_watch_history_title">观看历史</string>
+    <string name="alivc_longvideo_cache_video_title">缓存视频</string>
+    <string name="alivc_longvideo_cache_video_edit">编辑</string>
+    <string name="alivc_longvideo_singleset_title">单集</string>
+    <string name="alivc_longvideo_series_title">系列</string>
+    <string name="alivc_longvideo_more_content">更多</string>
+    <string name="alivc_longvideo_mine_setting">设置</string>
+    <string name="alivc_longvideo_nickname">昵称</string>
+    <string name="alivc_longvideo_avatar">头像</string>
+    <string name="alivc_longvideo_introduction">简介</string>
+    <string name="alivc_longvideo_introduction_content">不忘初心,方得始终~</string>
+    <string name="alivc_longvideo_video_download_number">视频同时下载个数</string>
+    <string name="alivc_longvideo_download_sharpness">下载清晰度</string>
+    <string name="alivc_longvideo_doawload_operator">运营商网络下载</string>
+    <string name="alivc_longvideo_auto_play">运营商网络自动播放</string>
+    <string name="alivc_longvideo_hard_decoding">启用硬解码</string>
+    <string name="alivc_longvideo_save">保存</string>
+
+    <string name="alivc_longvideo_quality_sd">LD</string>
+    <string name="alivc_longvideo_quality_hd">SD</string>
+    <string name="alivc_longvideo_quality_ssd">HD</string>
+    <string name="alivc_longvideo_quality_chinese_sd">标清</string>
+    <string name="alivc_longvideo_quality_chinese_hd">高清</string>
+    <string name="alivc_longvideo_quality_chinese_ssd">超清</string>
+
+    <string name="alivc_longvideo_setting_vip">是否开启VIP</string>
+
+    <!--缓存页面-->
+    <string name="alivc_longvideo_cachevideo_delete">删除</string>
+    <string name="alivc_longvideo_cachevideo_all_selected">全选</string>
+    <string name="alivc_longvideo_cachevideo_un_all_selected">取消全选</string>
+
+    <string name="alivc_longvideo_cachevideo_not_cachevideo">- 暂无缓存视频 -</string>
+    <string name="alivc_longvideo_cachevideo_not_video">- 暂无视频 -</string>
+    <string name="alivc_longvideo_cachevideo_not_watch_history">- 暂无观看历史 -</string>
+    <string name="alivc_longvideo_cachevideo_delected_cachevideo">已删除该视频</string>
+    <string name="alivc_longvideo_no_watch">未观看</string>
+    <string name="alivc_longvideo_is_watch">已观看</string>
+
+    <string name="alivc_longvideo_all_series_title">剧集</string>
+    <string name="alivc_longvideo_series_cache_title">选择缓存集数</string>
+    <string name="alivc_longvideo_series_cache_title_multiple_selection">多选</string>
+    <string name="alivc_longvideo_series_cache_current_definition">当前清晰度： </string>
+    <string name="alivc_longvideo_series_cache_downloaded">已缓存文件</string>
+    <string name="alivc_longvideo_series_cache_confirm_download">确定缓存</string>
+    <string name="alivc_longvideo_series_cache_storage_tips">预计新占用%s,剩余%s可用</string>
+    <string name="alivc_longvideo_series_cache_storage_residue">剩余%s可用</string>
+    <string name="alivc_longvideo_series_all_number">全部%d集</string>
+    <string name="alivc_longvideo_series_all_number_list">全%d集</string>
+    <string name="alivc_longvideo_series">剧集</string>
+    <string name="alivc_longvideo_play_share">分享</string>
+    <string name="alivc_longvideo_play_vip">VIP</string>
+    <string name="alivc_longvideo_play_consult">当前视频</string>
+    <string name="alivc_longvideo_play_similar_videolist">猜你喜欢</string>
+    <string name="alivc_longvideo_series_set">全%1$s集</string>
+    <string name="alivc_longvideo_vip_enrer_details"><![CDATA[进入详情 >>]]></string>
+    <string name="alivc_longvideo_video_info">视频信息不能为空</string>
+    <string name="alivc_longvideo_moble_operator_dialog_message">当前为移动数据，是否继续播放？</string>
+    <string name="alivc_longvideo_dialog_continue">继续</string>
+    <string name="alivc_longvideo_video_cache_storage_tips">已缓存%s,剩余%s可用</string>
+    <string name="alivc_longvideo_video_cache_item_number_watch">%s个视频  %s已观看</string>
+    <string name="alivc_longvideo_request_permission_positive_btn_text">去设置</string>
+    <string name="alivc_longvideo_request_permission_negative_btn_text">暂不设置</string>
+    <string name="alivc_longvideo_request_permission_content_text"><![CDATA[需要访问 \"外部存储器\",否则会影响功能使用, 请到 \"应用信息 -> 权限\" 中设置！]]></string>
+    <string name="alivc_longvideo_user_info">用户信息</string>
+    <string name="alivc_longvideo_cache_ing">正在缓存</string>
+    <string name="alivc_longvideo_cache_fail">下载失败</string>
+    <string name="alivc_longvideo_cache_wait">等待下载</string>
+    <string name="alivc_longvideo_cache_stop">暂停下载</string>
+    <string name="alivc_longvideo_cache_toast_4g">连接wifi，或允许运营商下载</string>
+    <string name="aliyun_net_error">当前无网络,请连网后重试!</string>
+    <string name="alivc_longvideo_not_network_retry">当前无网络，点击重试</string>
+    <string name="alivc_longvideo_exit_application">再按一次退出应用</string>
+
+    <string name="alivc_longvideo_toast_less_storage">无法缓存,暂无多余空间</string>
+    <string name="alivc_longvideo_toast_add_download">已添加至缓存列表</string>
+
+    <string name="alivc_longvideo_player_vip_cache_toast">非会员无法缓存VIP视频</string>
+    <string name="alivc_longvideo_player_loacl_cache_toast">本地视频无法缓存</string>
+
+</resources>

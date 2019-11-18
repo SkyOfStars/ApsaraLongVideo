@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/alivc_longvideo_mine_bg_gray"
+    android:orientation="vertical"
+    tools:context=".activity.UserInfoActivity">
+
+    <include layout="@layout/alivc_long_video_base_title" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/alivc_common_height_group_60"
+        android:background="@color/alivc_common_font_white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/alivc_common_margin_18"
+            android:text="@string/alivc_longvideo_nickname"
+            android:textColor="@color/alivc_common_bg_black"
+            android:textSize="@dimen/alivc_common_font_15" />
+
+        <TextView
+            android:id="@+id/alivc_tv_nickname"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/alivc_common_margin_16"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:textColor="@color/alivc_common_bg_black"
+            android:textSize="@dimen/alivc_common_font_15" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/alivc_common_line_1px"
+        android:background="@color/alivc_longvideo_mine_bg_gray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/alivc_common_height_group_60"
+        android:background="@color/alivc_common_font_white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/alivc_common_margin_18"
+            android:layout_weight="1"
+            android:text="@string/alivc_longvideo_avatar"
+            android:textColor="@color/alivc_common_bg_black"
+            android:textSize="@dimen/alivc_common_font_15" />
+
+        <ImageView
+            android:id="@+id/alivc_iv_header"
+            android:layout_width="@dimen/alivc_common_size_icon_44"
+            android:layout_height="@dimen/alivc_common_size_icon_44"
+            android:layout_marginRight="@dimen/alivc_common_margin_16"
+            android:src="@mipmap/ic_launcher" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/alivc_common_line_1px"
+        android:background="@color/alivc_longvideo_mine_bg_gray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/alivc_common_height_group_160"
+        android:background="@color/alivc_common_font_white"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/alivc_common_margin_18"
+            android:layout_marginTop="@dimen/alivc_common_margin_20"
+            android:gravity="center_vertical"
+            android:text="@string/alivc_longvideo_introduction"
+            android:textColor="@color/alivc_common_bg_black"
+            android:textSize="@dimen/alivc_common_font_15" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/alivc_common_margin_18"
+            android:layout_marginTop="@dimen/alivc_common_margin_15"
+            android:background="@color/alivc_common_font_white"
+            android:text="@string/alivc_longvideo_introduction_content"
+            android:textColor="@color/alivc_common_bg_black"
+            android:textSize="@dimen/alivc_common_font_15" />
+    </LinearLayout>
+
+</LinearLayout>

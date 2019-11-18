@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--控件的高度-->
+    <dimen name="alivc_longvideo_height_switch_button">31dp</dimen>
+    <dimen name="alivc_longvideo_height_base_title">44dp</dimen>
+    <dimen name="alivc_longvideo_height_cache_bottom">57dp</dimen>
+    <dimen name="alivc_longvideo_height_rv_cache_item">71dp</dimen>
+    <dimen name="alivc_longvideo_height_fl_cache_history">74dp</dimen>
+
+    <!--控件的宽度-->
+    <dimen name="alivc_longvideo_width_switch_button_51">51dp</dimen>
+    <dimen name="alivc_longvideo_width_rv_cache_preview">126dp</dimen>
+    <dimen name="alivc_longvideo_width_fl_cache_history">131dp</dimen>
+
+    <!--margin距离-->
+
+    <!--imageview宽高-->
+    <dimen name="alivc_longvideo_width_icon_setting">26dp</dimen>
+
+
+    <dimen name="alivc_longvideo_width_home_item_preview">97dp</dimen>
+    <dimen name="alivc_longvideo_height_icon_setting">26dp</dimen>
+    <dimen name="alivc_longvideo_height_series_cache_bottom">75dp</dimen>
+    <dimen name="alivc_longvideo_height_play_vip_bg">16dp</dimen>
+
+
+
+</resources>

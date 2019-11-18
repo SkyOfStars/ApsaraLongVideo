@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="alivc_longvideo_font_black">#262626</color>
+    <color name="alivc_longvideo_font_more">#8C8C8C</color>
+
+    <color name="alivc_longvideo_slide_tab_orange">#FF6A00</color>
+    <color name="alivc_longvideo_transparent_color_black">#1A000000</color>
+    <color name="alivc_longvideo_font_bg_red">#E1282A</color>
+    <color name="alivc_longvideo_mine_bg_gray">#F4F4F4</color>
+    <color name="alivc_longvideo_title_bg_gray">#2EF8F8F8</color>
+    <color name="alivc_longvideo_title_middle_font_black">#030303</color>
+    <color name="alivc_longvideo_title_right_font_black">#181818</color>
+    <color name="alivc_longvideo_switch_button_blue">#108EE9</color>
+
+    <!---->
+    <color name="alivc_longvideo_navigation_bg_black">#1AFAFAFA</color>
+    <!--progressbar的背景色-->
+    <color name="alivc_longvideo_bg_progress_front">#CFD8DC</color>
+    <color name="alivc_longvideo_bg_progress_rear">#ECEFF1</color>
+
+    <color name="alivc_longvideo_trailer_tips_bg_line">#FCBB03</color>
+
+
+</resources>

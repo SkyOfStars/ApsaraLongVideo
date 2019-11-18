@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.aliyun.solution.longvideo.view.MultipleStatusView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mMultipleStatusView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/alivc_common_bg_white"
+    android:orientation="vertical">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/alivc_single_SwipeRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="@dimen/alivc_common_padding_12">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/alivc_single_RecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+
+</com.aliyun.solution.longvideo.view.MultipleStatusView>

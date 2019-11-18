@@ -1,0 +1,6 @@
+include ':app'
+include ':AliyunVideoCommon'
+include ':Aliyunplayer:AlivcPlayerTools'
+include ':AlivcLongVideo'
+include ':AliyunVideoCommon'
+include ':Aliyunplayer:AlivcPlayerTools'

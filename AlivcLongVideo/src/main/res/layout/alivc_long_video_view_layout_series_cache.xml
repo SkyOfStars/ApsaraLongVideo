@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_series_cache_tips"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/alivc_longvideo_height_series_cache_bottom"
+    android:background="@color/alivc_common_white"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/tv_cache_file"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/alivc_longvideo_series_cache_downloaded"
+        android:textSize="@dimen/alivc_common_font_16" />
+
+    <TextView
+        android:id="@+id/tv_badge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/alivc_common_margin_5"
+        android:layout_toRightOf="@id/tv_cache_file"
+        android:background="@drawable/alivc_longvideo_red_circle_cache_file_shape"
+        android:gravity="center"
+        android:textColor="@color/alivc_common_font_white"
+        android:textSize="@dimen/alivc_common_font_13" />
+
+    <TextView
+        android:id="@+id/tv_storage_residue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_cache_file"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/alivc_common_margin_3" />
+
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.aliyun.solution.longvideo.view.MultipleStatusView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mMultipleStatusView"
+    android:background="@color/alivc_common_bg_white"
+    android:orientation="vertical">
+
+    <com.aliyun.solution.longvideo.view.PagerSlidingTabStrip
+        android:id="@+id/alivc_home_pager_tab_trip"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/alivc_common_height_group_40"
+        android:layout_alignParentTop="true"
+        app:pstsShouldExpand="true"
+        app:pstsIndicatorWidth="@dimen/alivc_common_height_group_40" />
+
+    <android.support.v4.view.ViewPager
+        android:layout_below="@+id/alivc_home_pager_tab_trip"
+        android:id="@+id/alivc_home_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</com.aliyun.solution.longvideo.view.MultipleStatusView>
